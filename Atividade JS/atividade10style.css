@@ -1,0 +1,22 @@
+h1 {
+
+    color: rgb(4, 3, 3);
+    background-color: rgb(115, 205, 70);
+    font-family: cursive;
+    font-size:x-large;
+    text-align: center;
+    font-size: xx-large;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 500%;
+    text-align: center;
+    }
+body {
+        background-color: rgb(80, 94, 89);
+
+    }
+div {
+        width: 150px;
+        margin: auto;
+    }
