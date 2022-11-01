@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descontos</title>
+    <link rel="stylesheet" type="text/css" href="atividade10style.css">
+</head>
+<body>
+    <h1>Confira seu Desconto</h1>
+    <div class="botao">
+    <button onclick="teste()">Clique para Conferir</button></div>
+    <section id="result">
+        <p>O resultado será apresentado aqui...</p>
+    </section>
+
+    <script>
+        function teste() {
+        var num = Number(window.prompt('Digite um Valor:'))
+        var res = document.querySelector('section#result')
+        var tipo
+        if (num >= 100) {
+        res.innerHTML = `<p>Desconto de 10% liberado!</p>`;
+        }
+        else if ( num >= 50 ) {
+        res.innerHTML = `<p>Desconto de 5% liberado</p>`;
+        } else {
+        res.innerHTML = `<p>Nenhum desconto foi liberado</p>`;
+        }
+        
+        }
+    </script>
+</body>
+</html>
